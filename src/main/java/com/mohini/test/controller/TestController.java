@@ -11,4 +11,9 @@ public class TestController {
     public String ping(){
         return "pong";
     }
+
+    @GetMapping("/hello")
+    public String helloWorld(){
+        return "Hello Mohini";
+    }
 }
